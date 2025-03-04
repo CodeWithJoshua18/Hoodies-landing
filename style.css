@@ -22,7 +22,7 @@ nav{
 }
 
 .logo{
-    margin-left: 5rem;
+    margin-left: 1rem;
 }
 
 .burger{
@@ -31,7 +31,7 @@ nav{
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    margin-right: 5rem;
+    margin-right: 1rem;
 }
 
 .burger span{
@@ -134,9 +134,9 @@ header{
     background-size: cover;
 }
 
-/* section end */
+/* section one end */
 
-/* product scetion start */
+/* product section start */
 .products{
     margin-top: 10rem;
     display: flex;
@@ -199,4 +199,118 @@ header{
     text-decoration: none;
     color: var(--main-color);
     border-bottom: 1px solid var(--main-color);
+}
+/* product section end*/
+
+/* customer review start */
+.customer-reviews{
+    margin-top: 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.customer{
+    text-align: center;
+}
+
+.customer-heading{
+    font-family: var(--main-font);
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.customer-description{
+    font-size: 12px;
+    margin-top: 20px;
+    max-width: 200px;
+    text-align: center;
+    margin: 10px;
+    font-family: var(--main-font);
+}
+
+.customer-img .img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.img-one{
+    background: url(./images/10.jpg);
+}
+
+.img-two{
+    background: url(./images/11.jpg);
+}
+
+.img-three{
+    background: url(./images/12.jpg);
+}
+/* customer review end */
+
+/* footer start */
+footer{
+    background: #1f1e1e;
+    margin-top: 1rem;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    font-family: var(--main-font);
+}
+
+.footer-heading{
+    margin-bottom: 3rem;
+}
+
+.footer-primary-heading{
+    font-weight: normal;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+/* footer end */
+
+/* responsiveness */
+@media only screen and (max-width: 900px){
+    header{
+        height: 120vh;
+        text-align: center;
+    }
+
+    .section-one{
+        height: 120vh;
+        text-align: center;
+    }
+
+    .header-img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .main-headings{
+        font-size: 3rem;
+        margin-top: 2rem;
+    }
+
+    .primary-headings{
+        width: 350px;
+    }
+
+    .img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .container{
+        width: 90%;
+    }
 }
