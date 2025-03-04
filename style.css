@@ -313,4 +313,8 @@ footer{
     .container{
         width: 90%;
     }
+
+   .logo img{
+    width: 150px;
+   }
 }
